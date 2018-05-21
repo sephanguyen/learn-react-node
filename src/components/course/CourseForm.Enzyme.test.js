@@ -31,4 +31,4 @@ it('save button is labeled "Save" when not saving', () =>{
 it('save button is labeled "Saving..." when not saving', () =>{
   const wrapper = setup(true);
   expect(wrapper.find('input').props().value).toBe('Saving...');
-})
+});
